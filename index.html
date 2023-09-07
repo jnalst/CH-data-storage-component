@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Fylo data storage component</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main class="fylo-bg">
+      <div class="container">
+        <div class="bloco1">
+          <picture class="logo">
+            <img src="./images/logo.svg" alt="" />
+          </picture>
+          <picture class="botoes">
+            <a class="imgDocument" href="#"
+              ><img src="./images/icon-document.svg" alt=""
+            /></a>
+            <a class="imgFolder" href="#"
+              ><img src="./images/icon-folder.svg" alt=""
+            /></a>
+            <a class="imgUpload" href="#"
+              ><img src="./images/icon-upload.svg" alt=""
+            /></a>
+          </picture>
+        </div>
+
+        <div class="bloco2">
+          <h1 class="text1">You’ve used <span class="negrito"><span id="espaco">815</span> GB</span> of your storage</h1>
+
+          <div class="caixa"> 
+            <p class="text2"><span id="espacousado">185</span> GB LEFT</p>
+          </div>
+          <input class="range" type="range" id="range" min="0" max="1000" oninput="range.value=value" />
+          
+          <div class="memoria">
+            <p class="memoria0">0 GB</p>
+            <p class="memoria1000">1000 GB</p>
+          </div>
+        </div>
+      </div>
+   
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/jnalst">Jnalst</a>.
+    </footer>
+  </main>
+    <script src="./js/range.js"></script>
+  </body>
+</html>

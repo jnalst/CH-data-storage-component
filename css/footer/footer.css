@@ -1,0 +1,14 @@
+.attribution {
+    margin-top: -3.8rem;
+    font-size: 16px;
+    text-align: center;
+    color: var(--w);
+    padding-bottom: 2rem;
+    font-family: "Raleway";
+}
+
+.attribution a {
+    color: var(--w);
+    font-family: "Raleway";
+    font-weight: 700;
+}
